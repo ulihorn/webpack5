@@ -1,0 +1,1452 @@
+1601313962581	geckodriver	INFO	geckodriver 0.21.0
+1601313962594	geckodriver	INFO	Listening on 127.0.0.1:32777
+1601313963580	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.unvJ4lQhB4aB"
+1601313966743	Marionette	TRACE	Marionette enabled
+1601313966832	Marionette	TRACE	Received observer notification toplevel-window-ready
+1601313971516	Marionette	TRACE	Received observer notification marionette-startup-requested
+1601313971516	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1601313971534	Marionette	TRACE	All scripts recorded.
+1601313971534	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1601313971535	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1601313971535	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1601313971535	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1601313971535	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1601313971536	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1601313971536	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1601313971537	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1601313971537	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1601313971537	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1601313971537	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1601313971537	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1601313971537	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1601313971538	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1601313971538	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1601313971538	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1601313971539	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1601313971539	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1601313971539	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1601313971539	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1601313971539	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1601313971540	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1601313971540	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1601313971540	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1601313971540	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1601313971540	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1601313971540	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1601313971540	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1601313971541	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1601313971541	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1601313971624	Marionette	INFO	Listening on port 43777
+1601313971624	Marionette	DEBUG	Marionette is listening
+1601313971698	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55050
+1601313971700	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1601313971701	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601313971727	Marionette	TRACE	[15] Frame script loaded
+1601313971728	Marionette	TRACE	[15] Frame script registered
+1601313971735	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"0ac1e949-c11b-4698-91ce-924f7fb22822","capabilities":{"browserName":"firefox","browserVersion":"81.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1601313971744	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetWindowRect",{"height":768,"width":1024,"x":null,"y":null}]
+1601313971758	Marionette	DEBUG	0 <- [1,2,null,{"x":1280,"y":0,"width":1024,"height":768}]
+1601313971765	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://google.com/"}]
+1601313971795	Marionette	TRACE	[15] Received DOM event beforeunload for about:blank
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601313972277	Marionette	TRACE	[15] Received DOM event pagehide for about:blank
+1601313972357	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://www.google.com/
+1601313972382	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1601313973129	Marionette	TRACE	[15] Received DOM event pageshow for https://www.google.com/
+1601313973130	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1601314027798	Marionette	DEBUG	Closed connection 0
+1601314032848	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1601314032848	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1601314032848	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1601314032848	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1601314032848	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1601314032848	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1601314032848	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1601314032849	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1601314032849	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1601314032849	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1601314032849	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1601314032849	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1601314032849	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1601314032849	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1601314032849	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1601314032850	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1601314032850	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1601314032850	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1601314032850	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1601314032850	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1601314032850	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1601314032850	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1601314032851	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1601314032851	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1601314032851	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1601314032851	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1601314032851	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1601314032851	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1601314032851	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1601314032851	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1601314032851	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1601314032852	Marionette	INFO	Stopped listening on port 43777
+1601314032852	Marionette	DEBUG	Marionette stopped listening
+1601314821792	geckodriver	INFO	geckodriver 0.21.0
+1601314821798	geckodriver	INFO	Listening on 127.0.0.1:43417
+1601314822804	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DDAIVuc3QVa4"
+1601314823541	Marionette	TRACE	Marionette enabled
+1601314823631	Marionette	TRACE	Received observer notification toplevel-window-ready
+1601314825743	Marionette	TRACE	Received observer notification marionette-startup-requested
+1601314825744	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1601314825755	Marionette	TRACE	All scripts recorded.
+1601314825755	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1601314825755	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1601314825756	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1601314825756	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1601314825756	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1601314825757	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1601314825757	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1601314825757	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1601314825757	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1601314825757	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1601314825758	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1601314825758	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1601314825758	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1601314825767	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1601314825769	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1601314825769	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1601314825769	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1601314825769	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1601314825769	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1601314825769	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1601314825770	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1601314825771	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1601314825771	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1601314825771	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1601314825771	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1601314825771	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1601314825771	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1601314825772	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1601314825772	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1601314825774	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1601314825825	Marionette	INFO	Listening on port 40883
+1601314825826	Marionette	DEBUG	Marionette is listening
+1601314825912	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:35508
+1601314825914	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1601314825914	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601314825938	Marionette	TRACE	[15] Frame script loaded
+1601314825940	Marionette	TRACE	[15] Frame script registered
+1601314825946	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"7e431730-5669-41e6-9d55-dcdcd39eb9aa","capabilities":{"browserName":"firefox","browserVersion":"81.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1601314825956	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetWindowRect",{"height":768,"width":1024,"x":null,"y":null}]
+1601314825977	Marionette	DEBUG	0 <- [1,2,null,{"x":1280,"y":0,"width":1024,"height":768}]
+1601314825979	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://google.com/"}]
+1601314825997	Marionette	TRACE	[15] Received DOM event beforeunload for about:blank
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601314826599	Marionette	TRACE	[15] Received DOM event pagehide for about:blank
+1601314826718	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://www.google.com/
+1601314826753	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1601314831064	Marionette	TRACE	[15] Received DOM event pageshow for https://www.google.com/
+1601314831065	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1601314831085	Marionette	DEBUG	Closed connection 0
+1601314847983	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1601314847983	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1601314847983	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1601314847983	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1601314847983	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1601314847984	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1601314847984	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1601314847984	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1601314847984	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1601314847985	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1601314847985	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1601314847985	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1601314847985	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1601314847985	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1601314847985	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1601314847986	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1601314847986	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1601314847986	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1601314847986	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1601314847987	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1601314847987	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1601314847987	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1601314847987	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1601314847987	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1601314847988	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1601314847988	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1601314847988	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1601314847988	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1601314847988	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1601314847988	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1601314847989	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1601314847989	Marionette	INFO	Stopped listening on port 40883
+1601314847989	Marionette	DEBUG	Marionette stopped listening
+1601314857647	geckodriver	INFO	geckodriver 0.21.0
+1601314857652	geckodriver	INFO	Listening on 127.0.0.1:43663
+1601314858658	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OfhhEnB0m1Lg"
+1601314859411	Marionette	TRACE	Marionette enabled
+1601314859496	Marionette	TRACE	Received observer notification toplevel-window-ready
+1601314861163	Marionette	TRACE	Received observer notification marionette-startup-requested
+1601314861164	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1601314861218	Marionette	TRACE	All scripts recorded.
+1601314861219	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1601314861219	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1601314861219	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1601314861220	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1601314861220	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1601314861221	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1601314861221	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1601314861222	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1601314861222	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1601314861222	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1601314861222	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1601314861223	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1601314861223	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1601314861223	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1601314861225	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1601314861225	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1601314861225	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1601314861225	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1601314861225	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1601314861225	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1601314861226	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1601314861227	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1601314861227	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1601314861227	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1601314861228	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1601314861228	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1601314861228	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1601314861228	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1601314861229	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1601314861230	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1601314861285	Marionette	INFO	Listening on port 38213
+1601314861285	Marionette	DEBUG	Marionette is listening
+1601314861365	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53102
+1601314861368	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1601314861369	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601314861391	Marionette	TRACE	[15] Frame script loaded
+1601314861392	Marionette	TRACE	[15] Frame script registered
+1601314861398	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"c4068628-9210-4a85-a403-797f939dbc75","capabilities":{"browserName":"firefox","browserVersion":"81.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1601314861405	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetWindowRect",{"height":768,"width":1024,"x":null,"y":null}]
+1601314861417	Marionette	DEBUG	0 <- [1,2,null,{"x":1280,"y":0,"width":1024,"height":768}]
+1601314861425	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://google.com/"}]
+1601314861441	Marionette	TRACE	[15] Received DOM event beforeunload for about:blank
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601314862177	Marionette	TRACE	[15] Received DOM event pagehide for about:blank
+1601314862256	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://www.google.com/
+1601314862281	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1601314863026	Marionette	TRACE	[15] Received DOM event pageshow for https://www.google.com/
+1601314863027	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1601314863041	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"realbox\"]"}]
+1601314863048	Marionette	DEBUG	0 <- [1,4,{"error":"no such element","message":"Unable to locate element: //*[@id=\"realbox\"]","stacktrace":"WebDriverError@chrom ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:330:16\n"},null]
+1601314863065	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 235}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 235}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1601315044317	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1601315044317	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1601315044318	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1601315044318	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1601315044318	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1601315044318	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1601315044319	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1601315044320	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1601315044320	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1601315044320	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1601315044321	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1601315044321	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1601315044321	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1601315044322	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1601315044322	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1601315044323	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1601315044323	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1601315044323	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1601315044323	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1601315044324	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1601315044324	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1601315044324	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1601315044325	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1601315044325	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1601315044325	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1601315044325	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1601315044325	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1601315044325	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1601315044325	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1601315044325	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1601315044326	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1601315044327	Marionette	INFO	Stopped listening on port 38213
+1601315044327	Marionette	DEBUG	Marionette stopped listening
+1601315046586	geckodriver	INFO	geckodriver 0.21.0
+1601315046592	geckodriver	INFO	Listening on 127.0.0.1:56479
+1601315047597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yNjO6Ic4oCX8"
+1601315048338	Marionette	TRACE	Marionette enabled
+1601315048426	Marionette	TRACE	Received observer notification toplevel-window-ready
+1601315055473	Marionette	TRACE	Received observer notification marionette-startup-requested
+1601315055474	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1601315055494	Marionette	TRACE	All scripts recorded.
+1601315055495	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1601315055495	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1601315055495	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1601315055495	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1601315055495	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1601315055496	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1601315055496	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1601315055497	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1601315055497	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1601315055497	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1601315055497	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1601315055497	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1601315055497	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1601315055498	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1601315055498	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1601315055498	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1601315055499	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1601315055499	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1601315055499	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1601315055499	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1601315055499	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1601315055500	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1601315055500	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1601315055500	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1601315055500	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1601315055500	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1601315055500	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1601315055500	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1601315055501	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1601315055502	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1601315055546	Marionette	INFO	Listening on port 45361
+1601315055546	Marionette	DEBUG	Marionette is listening
+1601315055620	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49266
+1601315055622	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1601315055623	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601315055645	Marionette	TRACE	[15] Frame script loaded
+1601315055646	Marionette	TRACE	[15] Frame script registered
+1601315055652	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"d3c19ac8-a192-469d-8a69-db3c2b5e0ed8","capabilities":{"browserName":"firefox","browserVersion":"81.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1601315055659	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetWindowRect",{"height":768,"width":1024,"x":null,"y":null}]
+1601315055682	Marionette	DEBUG	0 <- [1,2,null,{"x":1280,"y":0,"width":1024,"height":768}]
+1601315055685	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://google.com/"}]
+1601315055702	Marionette	TRACE	[15] Received DOM event beforeunload for about:blank
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601315056133	Marionette	TRACE	[15] Received DOM event pagehide for about:blank
+1601315056222	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://www.google.com/
+1601315056248	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1601315057000	Marionette	TRACE	[15] Received DOM event pageshow for https://www.google.com/
+1601315057001	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1601315057006	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"realbox\"]"}]
+1601315057018	Marionette	DEBUG	0 <- [1,4,{"error":"no such element","message":"Unable to locate element: //*[@id=\"realbox\"]","stacktrace":"WebDriverError@chrom ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:330:16\n"},null]
+1601315057039	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 235}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 235}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 118: TypeError: gRecipeManager is null
+1601316189166	FirefoxAccounts	ERROR	Pairing channel error: Error: WebSocket unexpectedly closed(resource://gre/modules/FxAccountsPairingChannel.js:3564:20) JS Stack trace: FxAccountsPairingChannel</_setupListeners/<@FxAccountsPairingChannel.js:3564:20
+1601316647985	FirefoxAccounts	ERROR	Pairing channel error: Error: WebSocket unexpectedly closed(resource://gre/modules/FxAccountsPairingChannel.js:3564:20) JS Stack trace: FxAccountsPairingChannel</_setupListeners/<@FxAccountsPairingChannel.js:3564:20
+1601317181555	FirefoxAccounts	ERROR	Pairing channel error: Error: WebSocket unexpectedly closed(resource://gre/modules/FxAccountsPairingChannel.js:3564:20) JS Stack trace: FxAccountsPairingChannel</_setupListeners/<@FxAccountsPairingChannel.js:3564:20
+1601317509241	FirefoxAccounts	ERROR	Pairing channel error: Error: WebSocket unexpectedly closed(resource://gre/modules/FxAccountsPairingChannel.js:3564:20) JS Stack trace: FxAccountsPairingChannel</_setupListeners/<@FxAccountsPairingChannel.js:3564:20
+1601318032006	FirefoxAccounts	ERROR	Pairing channel error: Error: WebSocket unexpectedly closed(resource://gre/modules/FxAccountsPairingChannel.js:3564:20) JS Stack trace: FxAccountsPairingChannel</_setupListeners/<@FxAccountsPairingChannel.js:3564:20
+1601318436433	FirefoxAccounts	ERROR	Pairing channel error: Error: WebSocket unexpectedly closed(resource://gre/modules/FxAccountsPairingChannel.js:3564:20) JS Stack trace: FxAccountsPairingChannel</_setupListeners/<@FxAccountsPairingChannel.js:3564:20
+JavaScript warning: moz-extension://80e3123d-b8a0-4856-aa67-0a7323afb493/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript warning: moz-extension://8093fbf4-8356-4674-807b-9abaca24b0dd/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.274877907076
+JavaScript error: , line 0: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+1601319876315	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1601319876315	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1601319876315	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1601319876315	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1601319876316	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1601319876316	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1601319876317	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1601319876318	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1601319876318	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1601319876319	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1601319876319	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1601319876319	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1601319876319	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1601319876319	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1601319876320	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1601319876321	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1601319876321	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1601319876321	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1601319876322	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1601319876322	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1601319876322	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1601319876323	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1601319876323	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1601319876323	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1601319876324	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1601319876324	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1601319876324	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1601319876324	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1601319876324	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1601319876324	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1601319876325	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1601319876327	Marionette	INFO	Stopped listening on port 45361
+1601319876327	Marionette	DEBUG	Marionette stopped listening
+1601320093298	geckodriver	INFO	geckodriver 0.21.0
+1601320093304	geckodriver	INFO	Listening on 127.0.0.1:37035
+1601320094306	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xf9jaioyWbho"
+1601320095041	Marionette	TRACE	Marionette enabled
+1601320095120	Marionette	TRACE	Received observer notification toplevel-window-ready
+1601320106459	Marionette	TRACE	Received observer notification marionette-startup-requested
+1601320106459	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1601320106511	Marionette	TRACE	All scripts recorded.
+1601320106512	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1601320106512	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1601320106512	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1601320106513	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1601320106513	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1601320106514	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1601320106515	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1601320106515	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1601320106515	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1601320106515	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1601320106515	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1601320106515	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1601320106516	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1601320106516	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1601320106517	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1601320106517	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1601320106517	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1601320106518	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1601320106518	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1601320106518	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1601320106519	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1601320106519	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1601320106519	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1601320106519	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1601320106519	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1601320106519	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1601320106520	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1601320106520	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1601320106520	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1601320106522	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1601320106576	Marionette	INFO	Listening on port 38561
+1601320106577	Marionette	DEBUG	Marionette is listening
+1601320106650	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:43142
+1601320106655	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1601320106656	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601320106687	Marionette	TRACE	[15] Frame script loaded
+1601320106688	Marionette	TRACE	[15] Frame script registered
+1601320106696	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"38d4a767-6a6b-4fa3-8976-4c2f777a4a30","capabilities":{"browserName":"firefox","browserVersion":"81.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1601320106706	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetWindowRect",{"height":768,"width":1024,"x":null,"y":null}]
+1601320106747	Marionette	DEBUG	0 <- [1,2,null,{"x":1686,"y":49,"width":1091,"height":927}]
+1601320106749	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://google.com/"}]
+1601320106763	Marionette	TRACE	[15] Received DOM event beforeunload for about:blank
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601320108171	Marionette	TRACE	[15] Received DOM event pagehide for about:blank
+1601320108270	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://www.google.com/
+1601320108295	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1601320109230	Marionette	TRACE	[15] Received DOM event pageshow for https://www.google.com/
+1601320109231	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1601320109237	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"realbox\"]"}]
+1601320109245	Marionette	DEBUG	0 <- [1,4,{"error":"no such element","message":"Unable to locate element: //*[@id=\"realbox\"]","stacktrace":"WebDriverError@chrom ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:330:16\n"},null]
+1601320109276	Marionette	DEBUG	Closed connection 0
+1601320198059	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1601320198059	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1601320198059	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1601320198060	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1601320198060	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1601320198060	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1601320198061	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1601320198061	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1601320198061	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1601320198061	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1601320198061	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1601320198062	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1601320198062	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1601320198062	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1601320198062	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1601320198062	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1601320198063	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1601320198063	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1601320198063	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1601320198063	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1601320198063	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1601320198064	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1601320198064	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1601320198064	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1601320198064	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1601320198064	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1601320198064	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1601320198064	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1601320198064	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1601320198065	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1601320198065	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1601320198065	Marionette	INFO	Stopped listening on port 38561
+1601320198066	Marionette	DEBUG	Marionette stopped listening
+1601320208658	geckodriver	INFO	geckodriver 0.21.0
+1601320208664	geckodriver	INFO	Listening on 127.0.0.1:37283
+1601320209672	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZIyjPSUdICqw"
+1601320210445	Marionette	TRACE	Marionette enabled
+1601320210521	Marionette	TRACE	Received observer notification toplevel-window-ready
+1601320212693	Marionette	TRACE	Received observer notification marionette-startup-requested
+1601320212693	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1601320212745	Marionette	TRACE	All scripts recorded.
+1601320212745	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1601320212745	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1601320212745	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1601320212746	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1601320212753	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1601320212755	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1601320212755	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1601320212755	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1601320212756	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1601320212756	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1601320212756	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1601320212756	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1601320212756	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1601320212757	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1601320212758	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1601320212758	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1601320212759	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1601320212759	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1601320212759	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1601320212759	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1601320212760	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1601320212760	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1601320212761	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1601320212761	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1601320212761	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1601320212761	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1601320212761	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1601320212762	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1601320212762	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1601320212764	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1601320212817	Marionette	INFO	Listening on port 40219
+1601320212817	Marionette	DEBUG	Marionette is listening
+1601320212882	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55202
+1601320212883	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1601320212884	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601320212906	Marionette	TRACE	[15] Frame script loaded
+1601320212907	Marionette	TRACE	[15] Frame script registered
+1601320212915	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"cd004e39-6592-4f48-a18e-264182223510","capabilities":{"browserName":"firefox","browserVersion":"81.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1601320212920	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetWindowRect",{"height":768,"width":1024,"x":null,"y":null}]
+1601320212935	Marionette	DEBUG	0 <- [1,2,null,{"x":1280,"y":0,"width":1024,"height":768}]
+1601320212942	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://google.com/"}]
+1601320212960	Marionette	TRACE	[15] Received DOM event beforeunload for about:blank
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601320213425	Marionette	TRACE	[15] Received DOM event pagehide for about:blank
+1601320213506	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://www.google.com/
+1601320213515	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1601320214321	Marionette	TRACE	[15] Received DOM event pageshow for https://www.google.com/
+1601320214322	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1601320214327	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"realbox\"]"}]
+1601320214332	Marionette	DEBUG	0 <- [1,4,{"error":"no such element","message":"Unable to locate element: //*[@id=\"realbox\"]","stacktrace":"WebDriverError@chrom ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:330:16\n"},null]
+1601320214348	Marionette	DEBUG	Closed connection 0
+1601320556447	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1601320556447	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1601320556447	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1601320556447	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1601320556447	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1601320556448	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1601320556448	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1601320556449	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1601320556449	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1601320556449	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1601320556450	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1601320556450	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1601320556450	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1601320556450	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1601320556450	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1601320556451	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1601320556451	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1601320556451	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1601320556451	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1601320556452	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1601320556452	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1601320556452	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1601320556452	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1601320556452	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1601320556453	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1601320556453	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1601320556453	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1601320556453	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1601320556453	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1601320556453	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1601320556454	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1601320556454	Marionette	INFO	Stopped listening on port 40219
+1601320556455	Marionette	DEBUG	Marionette stopped listening
+1601320558315	geckodriver	INFO	geckodriver 0.21.0
+1601320558321	geckodriver	INFO	Listening on 127.0.0.1:37705
+1601320559329	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YtvJ2oTfPIBh"
+1601320560602	Marionette	TRACE	Marionette enabled
+1601320560683	Marionette	TRACE	Received observer notification toplevel-window-ready
+1601320562870	Marionette	TRACE	Received observer notification marionette-startup-requested
+1601320562870	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1601320562937	Marionette	TRACE	All scripts recorded.
+1601320562938	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1601320562938	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1601320562938	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1601320562938	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1601320562939	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1601320562939	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1601320562940	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1601320562940	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1601320562940	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1601320562940	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1601320562940	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1601320562940	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1601320562941	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1601320562941	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1601320562942	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1601320562942	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1601320562942	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1601320562942	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1601320562942	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1601320562942	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1601320562943	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1601320562943	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1601320562943	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1601320562944	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1601320562944	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1601320562944	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1601320562944	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1601320562944	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1601320562944	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1601320562946	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1601320562991	Marionette	INFO	Listening on port 38917
+1601320562991	Marionette	DEBUG	Marionette is listening
+1601320563038	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53280
+1601320563040	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1601320563041	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601320563068	Marionette	TRACE	[15] Frame script loaded
+1601320563070	Marionette	TRACE	[15] Frame script registered
+1601320563077	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"238c2279-dbd6-4fb2-9253-4a2e6bfd7ad4","capabilities":{"browserName":"firefox","browserVersion":"81.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1601320563082	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetWindowRect",{"height":768,"width":1024,"x":null,"y":null}]
+1601320563104	Marionette	DEBUG	0 <- [1,2,null,{"x":1280,"y":0,"width":1024,"height":768}]
+1601320563107	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://google.com/"}]
+1601320563124	Marionette	TRACE	[15] Received DOM event beforeunload for about:blank
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601320563582	Marionette	TRACE	[15] Received DOM event pagehide for about:blank
+1601320563659	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://www.google.com/
+1601320563667	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1601320564500	Marionette	TRACE	[15] Received DOM event pageshow for https://www.google.com/
+1601320564501	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1601320564508	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"realbox\"]"}]
+1601320564516	Marionette	DEBUG	0 <- [1,4,{"error":"no such element","message":"Unable to locate element: //*[@id=\"realbox\"]","stacktrace":"WebDriverError@chrom ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:330:16\n"},null]
+1601320564533	Marionette	DEBUG	Closed connection 0
+
+(firefox:31741): GLib-GObject-CRITICAL **: 21:16:54.213: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31741): GLib-GObject-CRITICAL **: 21:16:54.213: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31741): GLib-GObject-CRITICAL **: 21:16:54.213: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31741): GLib-GObject-CRITICAL **: 21:16:54.213: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31741): GLib-GObject-CRITICAL **: 21:16:54.213: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31741): GLib-GObject-WARNING **: 21:16:54.262: ../../../../gobject/gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f79248b4600' of type 'MaiAtkType139'
+
+(firefox:31741): GLib-GObject-WARNING **: 21:16:54.262: ../../../../gobject/gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f79248b4970' of type 'MaiAtkType139'
+
+(firefox:31741): GLib-GObject-CRITICAL **: 21:16:54.300: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31741): GLib-GObject-CRITICAL **: 21:16:54.301: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31741): GLib-GObject-CRITICAL **: 21:16:54.391: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31741): GLib-GObject-CRITICAL **: 21:16:54.609: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31741): GLib-GObject-WARNING **: 21:17:39.324: ../../../../gobject/gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7f7918f3d880' of type 'MaiAtkType21'
+
+(firefox:31741): GLib-GObject-CRITICAL **: 21:22:27.096: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601321248941	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1601321248941	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1601321248941	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1601321248941	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1601321248942	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1601321248942	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1601321248942	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1601321248942	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1601321248943	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1601321248943	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1601321248943	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1601321248943	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1601321248944	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1601321248944	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1601321248944	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1601321248945	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1601321248945	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1601321248945	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1601321248945	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1601321248945	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1601321248945	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1601321248946	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1601321248946	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1601321248946	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1601321248946	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1601321248946	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1601321248946	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1601321248946	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1601321248946	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1601321248946	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1601321248947	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1601321248947	Marionette	INFO	Stopped listening on port 38917
+1601321248947	Marionette	DEBUG	Marionette stopped listening
+1601321251370	geckodriver	INFO	geckodriver 0.21.0
+1601321251375	geckodriver	INFO	Listening on 127.0.0.1:53135
+1601321252383	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QIagauTzULWt"
+1601321257872	Marionette	TRACE	Marionette enabled
+1601321257956	Marionette	TRACE	Received observer notification toplevel-window-ready
+1601321260196	Marionette	TRACE	Received observer notification marionette-startup-requested
+1601321260196	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1601321260268	Marionette	TRACE	All scripts recorded.
+1601321260269	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1601321260269	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1601321260269	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1601321260269	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1601321260270	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1601321260270	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1601321260271	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1601321260271	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1601321260271	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1601321260271	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1601321260271	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1601321260271	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1601321260271	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1601321260272	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1601321260272	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1601321260273	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1601321260273	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1601321260273	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1601321260273	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1601321260273	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1601321260274	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1601321260274	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1601321260274	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1601321260275	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1601321260275	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1601321260275	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1601321260275	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1601321260275	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1601321260275	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1601321260277	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1601321260323	Marionette	INFO	Listening on port 37683
+1601321260323	Marionette	DEBUG	Marionette is listening
+1601321260400	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:51940
+1601321260401	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1601321260401	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601321260435	Marionette	TRACE	[15] Frame script loaded
+1601321260436	Marionette	TRACE	[15] Frame script registered
+1601321260438	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"ebfa68a0-d6ed-4b19-9db4-b7cfa79add01","capabilities":{"browserName":"firefox","browserVersion":"81.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1601321260452	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetWindowRect",{"height":768,"width":1024,"x":null,"y":null}]
+1601321260479	Marionette	DEBUG	0 <- [1,2,null,{"x":117,"y":77,"width":1024,"height":768}]
+1601321260482	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://google.com/"}]
+1601321260510	Marionette	TRACE	[15] Received DOM event beforeunload for about:blank
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601321260969	Marionette	TRACE	[15] Received DOM event pagehide for about:blank
+1601321261053	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://www.google.com/
+1601321261078	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1601321263889	Marionette	TRACE	[15] Received DOM event pageshow for https://www.google.com/
+1601321263891	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1601321263895	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"realbox\"]"}]
+1601321263903	Marionette	DEBUG	0 <- [1,4,{"error":"no such element","message":"Unable to locate element: //*[@id=\"realbox\"]","stacktrace":"WebDriverError@chrom ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:330:16\n"},null]
+1601321263919	Marionette	DEBUG	Closed connection 0
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601321921858	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1601321921858	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1601321921858	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1601321921858	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1601321921859	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1601321921859	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1601321921860	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1601321921860	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1601321921860	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1601321921861	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1601321921861	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1601321921861	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1601321921861	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1601321921861	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1601321921861	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1601321921862	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1601321921862	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1601321921862	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1601321921863	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1601321921863	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1601321921863	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1601321921863	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1601321921863	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1601321921864	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1601321921864	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1601321921864	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1601321921864	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1601321921864	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1601321921864	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1601321921864	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1601321921865	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1601321921865	Marionette	INFO	Stopped listening on port 37683
+1601321921865	Marionette	DEBUG	Marionette stopped listening
+1601321929708	geckodriver	INFO	geckodriver 0.21.0
+1601321929713	geckodriver	INFO	Listening on 127.0.0.1:51635
+1601321930722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cjOHJUrjCvz6"
+1601321937955	Marionette	TRACE	Marionette enabled
+1601321938041	Marionette	TRACE	Received observer notification toplevel-window-ready
+1601321940351	Marionette	TRACE	Received observer notification marionette-startup-requested
+1601321940351	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1601321940362	Marionette	TRACE	All scripts recorded.
+1601321940363	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1601321940363	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1601321940364	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1601321940364	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1601321940364	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1601321940365	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1601321940365	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1601321940365	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1601321940366	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1601321940366	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1601321940366	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1601321940366	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1601321940366	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1601321940366	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1601321940367	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1601321940367	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1601321940367	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1601321940367	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1601321940368	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1601321940368	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1601321940368	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1601321940368	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1601321940369	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1601321940369	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1601321940369	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1601321940369	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1601321940369	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1601321940370	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1601321940370	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1601321940371	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1601321940422	Marionette	INFO	Listening on port 43041
+1601321940423	Marionette	DEBUG	Marionette is listening
+1601321940522	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:42492
+1601321940526	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1601321940527	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601321940551	Marionette	TRACE	[15] Frame script loaded
+1601321940553	Marionette	TRACE	[15] Frame script registered
+1601321940558	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"557eebab-1a79-44fc-9046-8a415b63be7e","capabilities":{"browserName":"firefox","browserVersion":"81.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1601321940567	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetWindowRect",{"height":768,"width":1024,"x":null,"y":null}]
+1601321940592	Marionette	DEBUG	0 <- [1,2,null,{"x":1280,"y":0,"width":1024,"height":768}]
+1601321940599	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://google.com/"}]
+1601321940623	Marionette	TRACE	[15] Received DOM event beforeunload for about:blank
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601321941238	Marionette	TRACE	[15] Received DOM event pagehide for about:blank
+1601321941346	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://www.google.com/
+1601321941376	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1601321942164	Marionette	TRACE	[15] Received DOM event pageshow for https://www.google.com/
+1601321942166	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1601321942181	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id=\"realbox\"]"}]
+1601321942187	Marionette	DEBUG	0 <- [1,4,{"error":"no such element","message":"Unable to locate element: //*[@id=\"realbox\"]","stacktrace":"WebDriverError@chrom ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:330:16\n"},null]
+1601321942205	Marionette	DEBUG	Closed connection 0
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601374216887	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1601374216887	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1601374216887	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1601374216887	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1601374216888	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1601374216888	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1601374216889	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1601374216889	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1601374216889	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1601374216889	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1601374216890	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1601374216890	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1601374216890	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1601374216890	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1601374216890	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1601374216891	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1601374216891	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1601374216891	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1601374216891	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1601374216891	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1601374216892	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1601374216892	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1601374216892	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1601374216892	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1601374216892	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1601374216892	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1601374216892	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1601374216892	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1601374216893	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1601374216893	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1601374216893	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1601374216894	Marionette	INFO	Stopped listening on port 43041
+1601374216894	Marionette	DEBUG	Marionette stopped listening

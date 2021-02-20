@@ -1,0 +1,12 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~jquery-ui/themes/base/datepicker.css';
+@import '~jquery-ui/themes/base/theme.css';
+@import '~quill/dist/quill.snow.css';
+
+$gradient: linear-gradient(to right, #00467f, #a5cc82);
+
+body {
+    //background-image: $gradient;
+    background-image: url('Images/dogs.jpg');
+    //background-size: cover
+}
